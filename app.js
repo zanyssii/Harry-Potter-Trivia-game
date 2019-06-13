@@ -74,7 +74,7 @@ var trivia = {
     
     // set timer to 20 seconds each question
     trivia.timer = 10;
-     $('#timer').removeClass('last-seconds');
+     $('#timer').removeClass('seconds');
     $('#timer').text(trivia.timer);
     
     // to prevent timer speed up
