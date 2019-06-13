@@ -1,0 +1,72 @@
+body{
+	background-image: url(harry-potter2.jpg);
+	text-align: center;
+
+
+}
+@import url(https://fonts.googleapis.com/css?family=Hind:2500);
+
+span {
+	color: transparent;
+	animation: blur 10s ease-out infinite;
+	-webkit-animation: blur 10s ease-out infinite;
+}
+
+span {
+  font-size: 3.5em;
+}
+span:nth-child(1) {
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+span:nth-child(2) {
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+span:nth-child(3) {
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+span:nth-child(4) {
+	animation-delay: 0.7s;
+	-webkit-animation-delay: 0.7s;
+}
+span:nth-child(5) {
+	animation-delay: 0.9s;
+	-webkit-animation-delay: 0.9s;
+}
+span:nth-child(6) {
+	animation-delay: 0.11s;
+	-webkit-animation-delay: 0.11s;
+}
+
+
+@keyframes blur {
+	0%		{text-shadow:  0 0 100px #0FEFD1; opacity:0;}
+	5%		{text-shadow:  0 0 90px #9412B5;}
+	15%		{opacity: 1;}
+	20%		{text-shadow:  0 0 0px #FEA50C;}
+	80%		{text-shadow:  0 0 0px #0FEFD1;}
+	85%		{opacity: 1;}
+	95%		{text-shadow:  0 0 90px #FEA50C;}
+	100%	{text-shadow:  0 0 100px #FEA50C; opacity:0;}
+}
+
+@-webkit-keyframes blur {
+	0%		{text-shadow:  0 0 100px #FEA50C; opacity:0;}
+	5%		{text-shadow:  0 0 90px #0CA5FE;}
+	15%		{opacity: 1;}
+	20%		{text-shadow:  0 0 0px #FE0C4D;}
+	80%		{text-shadow:  0 0 0px #9412B5;}
+	85%		{opacity: 1;}
+	95%		{text-shadow:  0 0 90px #9412B5;}
+	100%	{text-shadow:  0 0 100px #B6FE0C; opacity:0;}
+
+}
+.last-seconds{
+  color: red;
+}
+.option{
+  margin: 10px;
+  padding: 30px;
+}
